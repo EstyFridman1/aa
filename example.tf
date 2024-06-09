@@ -1,10 +1,8 @@
-#yor:skip
-resource "aws_athena_workgroup" "analytics1" {
-  name = "analytics1"
+resource "aws_athena_workgroup" "analytics" {
+  name = "analytics"
 
-  tags = merge(module.mylabel.tags, {
-    Group = "DataEngineering"
-  })
+  # no tags
+
   configuration {
     enforce_workgroup_configuration = true
   }
