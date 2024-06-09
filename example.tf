@@ -1,6 +1,6 @@
 #yor:skip
-resource "aws_athena_workgroup" "analytics" {
-  name = "analytics"
+resource "aws_athena_workgroup" "analytics1" {
+  name = "analytics1"
 
   # no tags
 
