@@ -1,3 +1,4 @@
+#yor:skip
 resource "aws_athena_workgroup" "analytics" {
   name = "analytics"
 
