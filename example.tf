@@ -2,7 +2,9 @@ resource "aws_athena_workgroup" "analytics" {
   name = "analytics"
 
   # no tags
-
+  tags = {
+    
+  }
   configuration {
     enforce_workgroup_configuration = true
   }
